@@ -1,4 +1,4 @@
-#temperature reading
+#archivo de temperatura
 import os
 import glob
 import time
