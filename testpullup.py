@@ -1,3 +1,4 @@
+#temperature reading
 import os
 import glob
 import time
@@ -14,6 +15,7 @@ def read_temp_raw():
     lines = f.readlines()
     f.close()
     return lines
+    
     
 def read_temp():
     lines = read_temp_raw()
